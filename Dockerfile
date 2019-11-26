@@ -1,6 +1,6 @@
 FROM node:boron
 
-RUN npm install -g gemidao-do-zap
+RUN npm install -g caneta-azul
 
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
